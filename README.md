@@ -9,7 +9,7 @@ I got tired of typing `Object.keys(object).forEach(function(key) { //do somethin
 
 ### examples
 ```
-import { forEachKeys, filterKeys, mapKeys, everyKeys, someKeys, reduceKeys } from 'object-looper'
+import { forEachKeys, filterKeys, mapKeys, everyKeys, someKeys, reduceKeys, findKeys } from 'object-looper'
 
 forEachKeys(obj, (key, value, index) => {
   //do something
@@ -74,6 +74,13 @@ const result = findKeys(obj, (key, value, index) => {
 })
 
 //result is { key1: 1 }
+```
+
+### modules
+you can also import each utility as its own module
+
+```
+import forEachKeys from 'object-looper/forEachKeys'
 ```
 
 ### where is x method from array?  
