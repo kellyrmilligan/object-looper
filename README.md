@@ -65,3 +65,6 @@ const result = reduceKeys(obj, (prevKey, prevValue, currKey, currValue, index) =
 
 //result is 11
 ```
+
+### where is x method from array?  
+This initial release are methods that I think cover the majority of the use cases. please feel free to pull-request with added looping fun!
