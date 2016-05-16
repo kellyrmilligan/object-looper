@@ -5,7 +5,7 @@ const Code = require('code')
 const lab = exports.lab = Lab.script()
 const expect = Code.expect
 import fs from 'fs'
-import { forEachKeys, filterKeys, mapKeys, everyKeys, someKeys, reduceKeys } from '../lib/index'
+import { forEachKeys, filterKeys, mapKeys, everyKeys, someKeys, reduceKeys, findKeys } from '../lib/index'
 
 
 lab.experiment('object-looper', function() {
@@ -85,6 +85,17 @@ lab.experiment('object-looper', function() {
       return prevValue + currValue
     })
     expect(result).to.equal(12)
+    done()
+  })
+  lab.test('will find a key with find', function(done) {
+    const obj = {
+      key1: 1,
+      key2: 11
+    }
+    const result = findKeys(obj, (key, value, index) => {
+      return value === 1
+    })
+    expect(result).to.deep.equal({ key1: 1 })
     done()
   })
 })

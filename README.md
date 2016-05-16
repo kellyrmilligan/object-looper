@@ -64,6 +64,16 @@ const result = reduceKeys(obj, (prevKey, prevValue, currKey, currValue, index) =
 })
 
 //result is 11
+
+const obj = {
+  key1: 1,
+  key2: 11
+}
+const result = findKeys(obj, (key, value, index) => {
+  return value === 1
+})
+
+//result is { key1: 1 }
 ```
 
 ### where is x method from array?  
