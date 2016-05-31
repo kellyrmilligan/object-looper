@@ -1,6 +1,6 @@
 {
   "name": "object-looper",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "utilities for looping through keys of objects",
   "keywords": "Object, keys, loop, forEach, map, reduce, filter, every, some",
   "main": "./index.js",
