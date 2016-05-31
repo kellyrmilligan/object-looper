@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "utilities for looping through keys of objects",
   "keywords": "Object, keys, loop, forEach, map, reduce, filter, every, some",
-  "main": "./lib/index.js",
+  "main": "./index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/kellyrmilligan/object-looper.git"
