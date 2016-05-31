@@ -198,6 +198,8 @@ node_modules/
 bower_components/
 *.log
 
+*.js
+*.js.map
 lib/
 test/*.js
 test/*.map
