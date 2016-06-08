@@ -5,9 +5,9 @@ const Code = require('code')
 const lab = exports.lab = Lab.script()
 const expect = Code.expect
 import fs from 'fs'
-import { forEachKeys, filterKeys, mapKeys, everyKeys, someKeys, reduceKeys, findKeys } from '../lib/index'
-import isObject from '../lib/isObject'
-import keys from '../lib/keys'
+import { forEachKeys, filterKeys, mapKeys, everyKeys, someKeys, reduceKeys, findKeys } from '../index'
+import isObject from '../isObject'
+import keys from '../keys'
 
 
 lab.experiment('object-looper', function() {
