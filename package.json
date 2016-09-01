@@ -35,7 +35,7 @@
     "eslint": "^3.1.1",
     "eslint-watch": "^2.1.10",
     "lab": "^10.2.0",
-    "npm-run-all": "^2.1.1",
+    "npm-run-all": "^3.1.0",
     "onchange": "^2.5.0"
   }
 }
